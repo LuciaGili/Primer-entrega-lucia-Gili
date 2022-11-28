@@ -1,5 +1,11 @@
 let nombre = prompt("ingrese su nombre");
-alert("Bienvenido" + " " + nombre + " " + "a las mejores casas de verano");
+function bienvenida () {
+    alert("Bienvenido" + " " + nombre + " " + "a las mejores casas de verano");
+    console.log(`el nombre del usuario es: ${nombre}`);
+}
+
+bienvenida();
+
 
 let casa = prompt ("¿Cuántas personas son?");
 
