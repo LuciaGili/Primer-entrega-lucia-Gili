@@ -26,18 +26,14 @@ function seleccionarCasa (){
 seleccionarCasa();
 
 let seña = alert ("Para continuar con la reserva debes señar la casa");
-let dinero = Number(prompt("La seña son 1000 pesos, para continuar ingrese ese monto o aceptamos tarjeta también"));
-let señaTotal = 1000;
-let tarjeta = true;
+let pagar = Number(prompt("La seña son 1000 pesos, para continuar ingrese ese monto."));
+let total = 1000
 
-if (dinero >= señaTotal){
-    alert("Felicitaciones tu reserva se realizó correctamente");
+if (pagar >= total){
+    alert("Felicitaciones tu reserva se realizó correctamente")
     console.log("reserva realizada");
-}else if(tarjeta){
-    alert("Felicitaciones tu reserva se realizó correctamente");
-    console.log("reserva realizada");
-}else{
-    alert("No se pudo realizar la reserva");
+} else{
+    alert("No se pudo realizar la reserva")
     console.log("fondos insuficientes");
-}
+} 
 
