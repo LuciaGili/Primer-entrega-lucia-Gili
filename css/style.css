@@ -1,0 +1,23 @@
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: rgb(113, 164, 135);
+}
+
+.galeria{
+    padding: 40px;
+}
+
+.card-img-top{
+    width: 75%;
+    margin: auto;
+}
+
+.presentación{
+    text-align: center;
+    padding: 30px;
+}
